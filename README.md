@@ -20,8 +20,9 @@ Ce projet est donc une **mini application de classification d’images** basée 
 
 
 ## Installation du projet complet 
+
 <blockquote>
-Ce dépôt utilise **Git LFS**  pour gérer les artefacts de modèles stockés dans `saved_models/`.
+Ce dépôt utilise Git LFS  pour gérer les artefacts de modèles stockés dans `saved_models/`.
 Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas être stockés directement sur GitHub.
 </blockquote>
 
@@ -48,8 +49,29 @@ git lfs pull
 ```
 
 
+## Création de l'environnement Python
 
 
+#### 1/ Créez un environement virtuel python
+``` Bash
+python -m venv venv
+```
 
+#### 2/ Activer cet environnement
+
+- Linux/MacOs :
+``` Bash
+python -m venv venv
+```
+
+- Windows :
+``` Bash
+venv\Scripts\activate
+```
+
+#### 3/ Installez quelques librairies nécéssaires dans l'environnement virtuel
+``` Bash
+pip install -r requirements.txt
+```
 
 
