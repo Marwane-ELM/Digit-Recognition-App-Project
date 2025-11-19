@@ -20,9 +20,8 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
 4. Ensuite, 4 modèles entraînés vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
 5. Une fenêtre va s'ouvrir en vous affichant d'une part vos images et d'autre part la prédiction donné par chacun des modèles.
 
-<blockquote>
-   Les images doivent être **claires**, bien centrées et les chiffres bien visibles et gras. Le projet n'est pas parfait donc soyez indulgents avec la robustesse des modèles. 😅 
-</blockquote>
+Les images doivent être sur **fond blanc**, **claires**, **bien centrées** et les chiffres bien **visibles** et **gras**. Les modèles ne sont pas parfait donc **soyez indulgents** avec la qualité des prédictions. 😅 
+
   
   
 # Installation du projet
