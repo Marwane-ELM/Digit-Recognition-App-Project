@@ -11,7 +11,7 @@ L’interface graphique (Tkinter) permet de :
 
 ## Fonctionnement général du projet
 
-1. **Ajoutez vos images** dans le dossier :
+1. **Ajoutez vos images** à classifier dans le dossier :
 
    ``` Console
    data/Images/
