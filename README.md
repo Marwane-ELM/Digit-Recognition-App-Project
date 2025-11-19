@@ -112,7 +112,7 @@ Digit-Recognition-App-Project/
 │
 ├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
 │
-├── notebooks/                Fichiers notebooks d'entraînements et de théorie mathématiques
+├── notebooks/                Fichiers notebooks d entraînements et de théorie mathématiques
 │
 ├── useful_functions/         Scripts pythons (dont interface Tkinter)
 │   ├── camera_predictions.py
