@@ -10,8 +10,8 @@ Cela m'a alors poussé, d'une part, à **recoder from scratch** le classifieur d
 Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes (continues ou discrètes), que j'ai codé, dans le dossier `notebooks/`.
 
 Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier).
-
-
+  
+  
 # Résumé global du projet
 
 1. Vous importez des images de chiffre dans le dossier `data/Images/`
@@ -22,8 +22,8 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
 <blockquote>
    Les images doivent être claires, bien centrées et les chiffres bien visibles et gras. Le projet n'est pas parfait donc soyez indulgents avec la robustesse des modèles. 😅 
 </blockquote>
-
-
+  
+  
 # Installation du projet
 
 <blockquote>
@@ -77,8 +77,8 @@ venv\Scripts\activate
 ``` Bash
 pip install -r requirements.txt
 ```
-
-
+  
+  
 # Exécution de l'application ***(interface Tkinter)***
 
 #### 1. Placer vos images à classer dans :
@@ -102,12 +102,15 @@ pip install -r requirements.txt
 
 
 # Structure du projet 📂
+
+``` Bash
 |
 |-- data/
 |   |-- Images/
 |   |-- ...
 |
 
+```
    
 
 
