@@ -24,8 +24,7 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
 
 
   
-  
-# Installation du projet
+# Installation du projet ⬇️
 
 <blockquote>
 Ce dépôt utilise Git LFS  pour gérer les artefacts des modèles stockés dans `saved_models/`.
