@@ -2,7 +2,7 @@
 
 J'ai crée ce petit projet car j'avais envie, d'une part, de **consolider mes connaissances en probabilités** et, d'autre part, de **replonger dans le beau monde de la classification d'images**. 
 
-J'ai découvert la classification d'images durant ma première année de licence, dans un cours de Sciences des données, et cela m'avais complètement fasciné. 
+J'ai découvert la classification d'images durant ma première année de licence, dans un cours de Sciences des données, et cela m'avais complètement fasciné.  
 J'étais émerveillé par le fait qu'on puisse manipuler une image d'un chiffre afin de d'émettre une prédiction grâce aux probabilités et au classifieur de Bayes.
 
 Cela m'a alors poussé, d'une part, à **recoder from scratch** le classifieur de Bayes (pour des données discrètes et des données continues), et d'autre part, à entraîner 4 modèles avec scikit-learn afin de créer une petite interface graphique dans laquelle on affiche les prédictions de chaque images donénes par l'utilisateur.
