@@ -1,10 +1,9 @@
 # Sommaire
 1. [Motivations](#motivations)
 2. [Résumé du projet](#resume-global)
-3. [Installation du projet](#installation)
-    1.[Environnement virtuel](#venv)
+3. [Arborescence de fichiers](#arborescence)
+4. [Installation du projet](#installation)
 5. [Lancement de l'interface](#lancement)
-6. [Arborescence de fichiers](#arborescence)
 
 
 
