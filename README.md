@@ -9,9 +9,10 @@ L’interface graphique (Tkinter) permet de :
 
 ---
 
-## Fonctionnement général
+## Fonctionnement général du projet
 
 1. **Ajoutez vos images** dans le dossier :
+
    ``` Console
    data/Images/
    ```
