@@ -1,5 +1,10 @@
 # Sommaire
-1. [Motivations](#-resume-global-du-projet)
+1. [Motivations](#motivations)
+2. [Résumé du projet](#resume-global)
+3. [Installation du projet](#installation)
+3.1  [Environnement virtuel](#venv)
+4. [Lancement de l'interface](#lancement)
+5. [Arborescence de fichiers](#arborescence)
 
 
 
@@ -84,7 +89,7 @@ pip install -r requirements.txt
 ```
   
   
-# Exécution de l'application ***(interface Tkinter)***
+# Lancement de l'application ***(interface Tkinter)***
 
 #### 1. Placer vos images à classer dans :
    ``` Bash
