@@ -14,7 +14,7 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
   
 # Résumé global du projet
 
-1. Vous importez des images de chiffre dans le dossier `data/Images/`
+* Vous importez des images de chiffre dans le dossier `data/Images/`
 2. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
 3. Le script va traiter chaque image en faisant appel à d'autres scripts (utilisant des fonctions d'`opencv`)
 4. Ensuite, 4 modèles entraînés vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
