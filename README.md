@@ -41,15 +41,16 @@ Digit-Recognition-App-Project/
 │
 ├── data/
 │   ├── Images/               Dossier contenant les images à prédire
-│   └── ...                   Autres
+│   └── ...                   
 │
 ├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
 │
 ├── notebooks/                Fichiers notebooks d entraînements et de théorie mathématiques
+│   └── ...
 │
 ├── useful_functions/         Scripts pythons (dont interface Tkinter)
 │   ├── camera_predictions.py
-│   └── preprocessing_utils.py
+│   └── ...
 │
 ├── requirements.txt        Librairies utiles
 ├── .gitattributes          fichiers suivis par LFS
