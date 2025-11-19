@@ -1,4 +1,4 @@
-# Application de Classification d'images
+## Application de Classification d'images
 
 Ce projet est une **mini application de classification d’images** basée sur 4 modèles de Machine Learning développés avec `scikit-learn` (3 modèles Bayésiens et un KNN).
 
@@ -9,6 +9,12 @@ L’interface graphique (Tkinter) permet de :
 
 ---
 
-## 🚀 Fonctionnement général
+## Fonctionnement général
 
 1. **Ajoutez vos images** dans le dossier :
+2. ``` Console
+   data/Images/
+   ```
+
+
+
