@@ -21,7 +21,7 @@ Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant l
 Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` ***(GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier)***
   
   
-# Résumé global du projet
+# Résumé global du projet <a name="resume-global"></a>
 
 1. Vous importez des images de chiffre dans le dossier `data/Images/`
 2. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
@@ -32,8 +32,33 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
 **NOTE :** Les images doivent être sur **fond blanc**, **claires**, **bien centrées** et les chiffres bien **visibles** et **gras**. Les modèles ne sont pas parfait donc **soyez indulgents** avec la qualité des prédictions. 😅  
 
 
+# Arborescence de fichiers du projet 📂 <a name="arborescence"></a>
+
+``` Bash
+Digit-Recognition-App-Project/
+│
+├── data/
+│   ├── Images/               Dossier contenant les images à prédire
+│   └── ...                   Autres
+│
+├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
+│
+├── notebooks/                Fichiers notebooks d entraînements et de théorie mathématiques
+│
+├── useful_functions/         Scripts pythons (dont interface Tkinter)
+│   ├── camera_predictions.py
+│   └── preprocessing_utils.py
+│
+├── requirements.txt        Librairies utiles
+├── .gitattributes          fichiers suivis par LFS
+├── .gitignore
+└── README.md
+
+```
+
+
   
-# Installation du projet ⬇️
+# Installation du projet ⬇️ <a name="installation"></a>
 
 <blockquote>
 Ce dépôt utilise Git LFS  pour gérer les artefacts des modèles stockés dans `saved_models/`.
@@ -63,7 +88,7 @@ git lfs pull
 ```
 
 
-# Création de l'environnement virtuel Python
+## Création de l'environnement virtuel Python
 
 #### 1/ Créez un environement virtuel python
 ``` Bash
@@ -88,7 +113,7 @@ pip install -r requirements.txt
 ```
   
   
-# Lancement de l'application ***(interface Tkinter)***
+# Lancement de l'application ***(interface Tkinter)*** <a name="lancement"></a>
 
 #### 1. Placer vos images à classer dans :
    ``` Bash
@@ -110,29 +135,6 @@ pip install -r requirements.txt
 
 
 
-# Arborescence de fichiers du projet 📂
-
-``` Bash
-Digit-Recognition-App-Project/
-│
-├── data/
-│   ├── Images/               Dossier contenant les images à prédire
-│   └── ...                   Autres
-│
-├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
-│
-├── notebooks/                Fichiers notebooks d entraînements et de théorie mathématiques
-│
-├── useful_functions/         Scripts pythons (dont interface Tkinter)
-│   ├── camera_predictions.py
-│   └── preprocessing_utils.py
-│
-├── requirements.txt        Librairies utiles
-├── .gitattributes          fichiers suivis par LFS
-├── .gitignore
-└── README.md
-
-```
    
 
 
