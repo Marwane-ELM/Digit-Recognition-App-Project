@@ -7,9 +7,9 @@ J'étais émerveillé par le fait qu'on puisse manipuler une image d'un chiffre 
 
 Cela m'a alors poussé, d'une part, à **recoder from scratch** le classifieur de Bayes (pour des données discrètes et des données continues), et d'autre part, à entraîner 4 modèles avec scikit-learn afin de créer une petite interface graphique dans laquelle on affiche les prédictions de chaque images donénes par l'utilisateur.
 
-On peut trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes (continues ou discrètes) dans le dossier `notebooks/`.
+Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes (continues ou discrètes), que j'ai codé, dans le dossier `notebooks/`.
 
-Ce projet est donc une **interface python de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier).
+Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier).
 
 
 # Résumé global du projet
@@ -27,7 +27,7 @@ Ce projet est donc une **interface python de classification d’images** basée 
 # Installation du projet
 
 <blockquote>
-Ce dépôt utilise Git LFS  pour gérer les artefacts de modèles stockés dans `saved_models/`.
+Ce dépôt utilise Git LFS  pour gérer les artefacts des modèles stockés dans `saved_models/`.
 Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas être stockés directement sur GitHub.
 </blockquote>
 
@@ -95,7 +95,18 @@ pip install -r requirements.txt
   ``` Bash
   python camera_preditions.py
   ```
- **Attendez un petit peu de temps, une fenêtre de ce type s'ouvrira :**
+ **Attendez un petit peu de temps et une fenêtre de ce type s'ouvrira :**
+
+### INSERTION IMAGES
+
+
+
+# Structure du projet 📂
+|
+|-- data/
+|   |-- Images/
+|   |-- ...
+|
 
    
 
