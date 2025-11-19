@@ -10,7 +10,7 @@ On peut trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **
 Ce projet est donc une **mini application de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier).
 
 
-# Fonctionnement rapide du projet
+# Fonctionnement du projet
 
 1. Vous importez des images de chiffre dans le dossier `data/Images/`
 2. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
@@ -19,7 +19,7 @@ Ce projet est donc une **mini application de classification d’images** basée 
 
 
 
-# Installation du projet complet 
+# Installation du projet
 
 <blockquote>
 Ce dépôt utilise Git LFS  pour gérer les artefacts de modèles stockés dans `saved_models/`.
@@ -49,8 +49,7 @@ git lfs pull
 ```
 
 
-# Création de l'environnement Python
-
+# Création de l'environnement virtuel Python
 
 #### 1/ Créez un environement virtuel python
 ``` Bash
@@ -61,7 +60,7 @@ python -m venv venv
 
 - Linux/MacOs :
 ``` Bash
-python -m venv venv
+source venv/bin/activate
 ```
 
 - Windows :
@@ -73,5 +72,29 @@ venv\Scripts\activate
 ``` Bash
 pip install -r requirements.txt
 ```
+
+
+# Exécution de l'application ***(interface Tkinter)***
+
+#### 1. Placer vos images à classer dans :
+   ``` Bash
+   data/Images/
+   ```
+
+#### 2. Rendez vous dans le dossier `useful_functions/`
+  ``` Bash
+  cd useful_functions
+  ```
+
+#### 3. Exécuter le script python `camera_predictions.py`
+  ``` Bash
+  python camera_preditions.py
+  ```
+ **Attendez un petit peu de temps, une fenêtre de ce type s'ouvrira :**
+
+   
+
+
+
 
 
