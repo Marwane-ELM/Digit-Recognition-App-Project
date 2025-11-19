@@ -12,7 +12,7 @@ L’interface graphique (Tkinter) permet de :
 ## Fonctionnement général
 
 1. **Ajoutez vos images** dans le dossier :
-2. ``` Console
+   ``` Console
    data/Images/
    ```
 
