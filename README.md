@@ -20,8 +20,10 @@ Ce projet est donc une **mini application de classification d’images** basée 
 
 
 ## Installation du projet complet 
+<blockquote>
 Ce dépôt utilise **Git LFS**  pour gérer les artefacts de modèles stockés dans `saved_models/`.
 Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas être stockés directement sur GitHub.
+</blockquote>
 
 **Voici les 4 étapes à suivre pour l'installation :**
 
