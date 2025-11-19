@@ -1,4 +1,4 @@
-# Digit Recognition / Image Classification App
+# Application de Classification d'images
 
 Ce projet est une **mini application de classification d’images** basée sur plusieurs modèles de Machine Learning développés avec `scikit-learn`.
 
