@@ -9,18 +9,19 @@ Cela m'a alors poussé, d'une part, à **recoder from scratch** le classifieur d
 
 Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes (continues ou discrètes), que j'ai codé, dans le dossier `notebooks/`.
 
-Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier).
+Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` (GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier)
   
   
 # Résumé global du projet
 
 1. Vous importez des images de chiffre dans le dossier `data/Images/`
-3. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
-4. Le script va mobiliser 4 modèles entraînés qui vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
-5. Une fenêtre va s'ouvrir en vous affichant d'une part vos images et d'autre part la prédiction donné par chaque modèle.
+2. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
+3. Le script va traiter chaque image en faisant appel à d'autres scripts (utilisant des fonctions d'`opencv`)
+4. Ensuite, 4 modèles entraînés vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
+5. Une fenêtre va s'ouvrir en vous affichant d'une part vos images et d'autre part la prédiction donné par chacun des modèles.
 
 <blockquote>
-   Les images doivent être claires, bien centrées et les chiffres bien visibles et gras. Le projet n'est pas parfait donc soyez indulgents avec la robustesse des modèles. 😅 
+   Les images doivent être **claires**, bien centrées et les chiffres bien visibles et gras. Le projet n'est pas parfait donc soyez indulgents avec la robustesse des modèles. 😅 
 </blockquote>
   
   
@@ -101,14 +102,27 @@ pip install -r requirements.txt
 
 
 
-# Structure du projet 📂
+# Arboresecne de fichier du projet 📂
 
 ``` Bash
-|
-|-- data/
-|   |-- Images/
-|   |-- ...
-|
+Digit-Recognition-App-Project/
+│
+├── data/
+│   ├── Images/               Dossier contenant les images à prédire
+│   └── ...                   Autres
+│
+├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
+│
+├── notebooks/                Fichiers notebooks d'entraînements et de théorie mathématiques
+│
+├── useful_functions/       ← Scripts pythons (dont interface Tkinter)
+│   ├── camera_predictions.py
+│   └── preprocessing_utils.py
+│
+├── requirements.txt        Librairies utiles
+├── .gitattributes          fichiers suivis par LFS
+├── .gitignore
+└── README.md
 
 ```
    
