@@ -43,7 +43,7 @@ git lfs install
 git clone https://github.com/TonPseudo/Digit-Recognition-App-Project.git
 ```
 
-#### 3/ Entrer dans le dossier
+#### 3/ Entrer dans le dossier `Digit-Recognition-App-Project`
 ``` Bash
 cd Digit-Recognition-App-Project
 ```
