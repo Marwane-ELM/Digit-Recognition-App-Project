@@ -1,2 +1,5 @@
 venv/
 .env/
+venv/
+data/
+saved_models/
