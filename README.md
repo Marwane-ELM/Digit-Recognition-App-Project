@@ -33,7 +33,7 @@ Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas êtr
 
 **Voici les 4 étapes à suivre pour l'installation :**
 
-#### 1/ Installez Git LFS sur votre machine
+#### 1/ Installez Git LFS sur votre machine (si vous ne l'avez pas)
 ``` Bash
 git lfs install
 ```
