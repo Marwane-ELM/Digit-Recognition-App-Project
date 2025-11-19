@@ -114,7 +114,7 @@ Digit-Recognition-App-Project/
 │
 ├── notebooks/                Fichiers notebooks d'entraînements et de théorie mathématiques
 │
-├── useful_functions/       ← Scripts pythons (dont interface Tkinter)
+├── useful_functions/         Scripts pythons (dont interface Tkinter)
 │   ├── camera_predictions.py
 │   └── preprocessing_utils.py
 │
