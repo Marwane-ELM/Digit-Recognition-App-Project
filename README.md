@@ -101,7 +101,7 @@ pip install -r requirements.txt
 
 
 
-# Arboresecne de fichier du projet 📂
+# Arborescence de fichiers du projet 📂
 
 ``` Bash
 Digit-Recognition-App-Project/
