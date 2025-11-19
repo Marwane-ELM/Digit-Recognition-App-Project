@@ -7,7 +7,7 @@
 
 
 
-# Motivations 💡
+# Motivations 💡 <a name="motivations"></a> 
 
 J'ai crée ce petit projet car j'avais envie, d'une part, de **consolider mes connaissances en probabilités** et, d'autre part, de **replonger dans le beau monde de la classification d'images**. 
 
