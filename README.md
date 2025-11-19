@@ -1,3 +1,5 @@
+# Interface de classification d'image réelles
+
 # Sommaire
 1. [Motivations](#motivations)
 2. [Résumé du projet](#resume-global)
