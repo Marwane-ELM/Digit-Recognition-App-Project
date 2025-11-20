@@ -25,11 +25,16 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
   
 # Résumé global du projet <a name="resume-global"></a>
 
-1. Vous importez des images de chiffre dans le dossier `data/Images/`. Vous pourrez trouver **quelques images de test** dans le dossier si vous voulez **tester brièvement** l'interface.
-2. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
-3. Le script va traiter chaque image en faisant appel à d'autres scripts (utilisant des fonctions d'`opencv`)
-4. Ensuite, 4 modèles entraînés vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
-5. Une fenêtre va s'ouvrir en vous affichant d'une part vos images et d'autre part la prédiction donné par chacun des modèles.
+1. Vous importez des images de chiffre dans le dossier `data/Images/`.
+   Vous pourrez trouver **quelques images de test** dans le dossier si vous voulez **tester brièvement** l'interface.
+   
+3. Vous exéctutez le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
+   
+4. Le script va traiter chaque image en faisant appel à d'autres scripts (utilisant des fonctions d'`opencv`)
+   
+5. Ensuite, 4 modèles entraînés vont chacun donner une prédiction de chaque image contenue dans le dossier `data/Images/`.
+  
+6. Une fenêtre va s'ouvrir en vous affichant d'une part vos images et d'autre part la prédiction donné par chacun des modèles.
 
 **NOTE :** Les images doivent être sur **fond blanc**, **claires**, **bien centrées** et les chiffres bien **visibles** et **gras**. Les modèles ne sont pas parfait donc **soyez indulgents** avec la qualité des prédictions 😁 
 
