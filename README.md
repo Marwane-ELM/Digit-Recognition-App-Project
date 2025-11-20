@@ -1,4 +1,4 @@
-# Interface de classification d'images de chiffre
+# Interface de classification de photos de chiffre
 
 # Sommaire
 1. [Motivations](#motivations)
