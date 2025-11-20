@@ -3,6 +3,6 @@ pandas
 scikit-learn
 joblib
 matplotlib
+opencv-python
 Pillow
 python3-tk
-opencv-python
