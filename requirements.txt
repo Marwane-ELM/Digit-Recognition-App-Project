@@ -4,4 +4,5 @@ scikit-learn
 joblib
 matplotlib
 Pillow
-tk
+python3-tk
+opencv-python
