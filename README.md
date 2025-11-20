@@ -25,7 +25,7 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
   
 # Résumé global du projet <a name="resume-global"></a>
 
-1. Vous **importez** des **images de chiffre** dans le dossier `data/Images/`.
+1. Vous **importez** des **images de chiffre** dans le dossier `Data/images/`.
    Vous pourrez trouver **quelques images de test** dans le dossier si vous voulez **tester brièvement** l'interface.
    
 3. Vous **exéctutez** le script python intitulé `camera_predictions.py`, contenu dans le dossier `useful_functions/`.
@@ -44,8 +44,8 @@ Ce projet est donc une **interface python (Tkinter) de classification d’images
 ``` Bash
 Digit-Recognition-App-Project/
 │
-├── data/
-│   ├── Images/               Dossier contenant les images à prédire
+├── Data/
+│   ├── images/               Dossier contenant les images à prédire
 │   └── ...                   
 │
 ├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
@@ -77,9 +77,9 @@ Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas êtr
 
 #### 1/ Téléchargez Git LFS sur votre machine (si vous ne l'avez pas) et installez le
 ``` Bash
-git lfs install
 sudo apt update
 sudo apt install git-lfs
+git lfs install
 ```
 
 #### 2/ Clonez le dépôt complet
@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 #### 1. Placer vos images à classer dans :
    ``` Bash
-   data/Images/
+   Data/images/
    ```
 
 #### 2. Rendez vous dans le dossier `useful_functions/`
