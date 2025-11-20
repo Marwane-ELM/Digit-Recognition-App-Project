@@ -133,8 +133,7 @@ pip install -r requirements.txt
   python camera_preditions.py
   ```
  **Attendez un petit peu de temps et une fenêtre de ce type s'ouvrira :**
-
-### INSERTION IMAGES
+ <img src="other/" alt="Mon logo" width="150" height="150">
 
 
 
