@@ -18,7 +18,7 @@ J'étais émerveillé par le fait qu'on puisse manipuler une image d'un chiffre 
 
 Cela m'a alors poussé, d'une part, à **recoder from scratch** le classifieur de Bayes *(pour des données discrètes et des données continues)*, et d'autre part, à entraîner 4 modèles avec scikit-learn afin de créer une petite **interface graphique** dans laquelle on **affiche les prédictions** de chaque images donénes par l'utilisateur.
 
-Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes (continues ou discrètes), que j'ai codé, situé dans `notebooks/theorie_mathematiques/`
+Vous pouvez trouver le fichier notebook `theorie_mathematique.ipynb` contenant la **théorie mathématique** et **le code from scratch** du classifieur de Bayes *(continues ou discrètes)*, que **j'ai codé from scratch**, situé dans le **répértoire** `notebooks/theorie_mathematiques/`
 
 Ce projet est donc une **interface python (Tkinter) de classification d’images** basée sur **4 modèles de Machine Learning** développés grâce à `scikit-learn` ***(GaussianNB, MultinomialNB, BernoulliNB, KNeighborsClassifier)***
   
