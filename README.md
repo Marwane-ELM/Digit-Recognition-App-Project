@@ -135,7 +135,7 @@ pip install -r requirements.txt
   
  **Attendez un petit peu de temps et une fenêtre de ce genre s'ouvrira :**  
  <img src="other/Capture d’écran du 2025-11-20 20-55-36.png" alt="Mon logo" width="300" height="850">  
- Vous avez à gauche chaque image contenues dans le dossier `data/Images/` avec la prédiction de chaque modèle.
+ Vous verrez, à gauche, chaque image, contenues dans le dossier `data/Images/`, avec leurs prédictions données par quatres modèles.
 
 
    
