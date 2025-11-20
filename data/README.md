@@ -1,1 +1,0 @@
-*** Fichiers utiles au projet ***
