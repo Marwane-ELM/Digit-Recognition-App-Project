@@ -75,14 +75,15 @@ Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas êtr
 
 **Voici les 4 étapes à suivre pour l'installation :**
 
-#### 1/ Installez Git LFS sur votre machine (si vous ne l'avez pas)
+#### 1/ Téléchargez Git LFS sur votre machine (si vous ne l'avez pas) et installez le
 ``` Bash
 git lfs install
+sudo apt install git-lfs
 ```
 
 #### 2/ Clonez le dépôt complet
 ``` Bash
-git clone https://github.com/TonPseudo/Digit-Recognition-App-Project.git
+git clone https://github.com/Marwane-ELM/Digit-Recognition-App-Project.git
 ```
 
 #### 3/ Entrer dans le dossier `Digit-Recognition-App-Project`
@@ -100,7 +101,7 @@ git lfs pull
 
 #### 1/ Créez un environement virtuel python
 ``` Bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 #### 2/ Activer cet environnement
