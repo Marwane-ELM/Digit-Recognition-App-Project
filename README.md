@@ -73,7 +73,7 @@ Ce dépôt utilise Git LFS  pour gérer les artefacts des modèles stockés dans
 Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas être stockés directement sur GitHub.
 </blockquote>
 
-**Voici les 4 étapes à suivre pour l'installation :**
+### Voici les 4 étapes à suivre pour l'installation depuis votre terminal :
 
 #### 1/ Téléchargez Git LFS sur votre machine (si vous ne l'avez pas) et installez le
 ``` Bash
@@ -126,7 +126,7 @@ sudo apt install python3-tk
   
 # Lancement de l'application ***(interface Tkinter)*** <a name="lancement"></a>
 
-#### 1. Placer vos images à classer dans :
+#### 1. Placer vos images à classer dans le dossier
    ``` Bash
    Data/images/
    ```
