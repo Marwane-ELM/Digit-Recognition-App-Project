@@ -132,7 +132,7 @@ pip install -r requirements.txt
   ``` Bash
   python camera_preditions.py
   ```
- **Attendez un petit peu de temps et une fenêtre de ce type s'ouvrira :**
+ **Attendez un petit peu de temps et une fenêtre de ce type s'ouvrira :**  
  <img src="other/Capture d’écran du 2025-11-20 20-55-36.png" alt="Mon logo" width="150" height="150">
 
 
