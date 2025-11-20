@@ -44,7 +44,7 @@ scrollable_frame.bind("<Configure>", update_scrollregion)
 
 # --- 5. Données à afficher ---
 store_images = []
-path_dossier_images = "../data/Images_test/"
+path_dossier_images = "../data/Images/"
 
 for i, nom_fichier in enumerate(os.listdir(path_dossier_images)):
 
