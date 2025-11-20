@@ -138,7 +138,7 @@ sudo apt install python3-tk
 
 #### 3. Exécuter le script python `camera_predictions.py`
   ``` Bash
-  python camera_preditions.py
+  python camera_predition.py
   ```
 
 ## Aperçu
