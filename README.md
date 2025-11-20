@@ -50,7 +50,7 @@ Digit-Recognition-App-Project/
 │
 ├── saved_models/             Modèles ML stockés via Git LFS (.joblib)
 │
-├── notebooks/                Fichiers notebooks d entraînements et de théorie mathématiques
+├── notebooks/                Fichiers notebooks d entraînements et théorie mathématiques des modèles utilisés
 │   └── ...
 │
 ├── useful_functions/         Scripts pythons (dont interface Tkinter)
@@ -78,9 +78,14 @@ Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas êtr
 #### 1/ Téléchargez Git LFS sur votre machine (si vous ne l'avez pas) et installez le
 ``` Bash
 sudo apt update
+```
+``` Bash
 sudo apt install git-lfs
+```
+``` Bash
 git lfs install
 ```
+
 
 #### 2/ Clonez le dépôt complet
 ``` Bash
