@@ -125,6 +125,8 @@ venv\Scripts\activate
 #### 3/ Installez les librairies nécéssaires dans l'environnement virtuel
 ``` Bash
 pip install -r requirements.txt
+```
+``` Bash
 sudo apt install python3-tk
 ```
   
