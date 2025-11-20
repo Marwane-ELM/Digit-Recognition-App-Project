@@ -5,4 +5,3 @@ joblib
 matplotlib
 opencv-python
 Pillow
-python3-tk
