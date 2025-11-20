@@ -133,7 +133,7 @@ sudo apt install python3-tk
   
 # Lancement de l'application ***(interface Tkinter)*** <a name="lancement"></a>
 
-#### 1. Placer vos images à classer dans le dossier
+#### 1. Placez vos images à classer dans le dossier
    ``` Bash
    Data/images/
    ```
@@ -143,7 +143,7 @@ sudo apt install python3-tk
   cd useful_functions
   ```
 
-#### 3. Exécuter le script python `camera_predictions.py`
+#### 3. Puis exécutez le script python `camera_prediction.py`
   ``` Bash
   python camera_prediction.py
   ```
