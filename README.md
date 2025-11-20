@@ -78,6 +78,7 @@ Les modèles enregistrés au format `.joblib` sont lourds et ne peuvent pas êtr
 #### 1/ Téléchargez Git LFS sur votre machine (si vous ne l'avez pas) et installez le
 ``` Bash
 git lfs install
+sudo apt update
 sudo apt install git-lfs
 ```
 
