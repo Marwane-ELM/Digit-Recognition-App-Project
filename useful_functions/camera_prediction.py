@@ -86,11 +86,23 @@ for i, nom_fichier in enumerate(os.listdir(path_dossier_images)):
     lbl_knc.grid(row=3, column=1, sticky="w")
 
 
-# --- Optionnel : Scroll avec la molette de la souris ---
-def _on_mousewheel(event):
-    canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+#### Scroll souris
 
-canvas.bind_all("<MouseWheel>", _on_mousewheel)
+def _on_mousewheel(event):
+    if window.tk.call("tk", "windowingsystem") == "aqua":  # macOS
+        canvas.yview_scroll(int(-1 * event.delta), "units")
+    else:  # Windows / Linux
+        canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+def _on_linux_scroll(event):
+    if event.num == 4:
+        canvas.yview_scroll(-1, "units")
+    elif event.num == 5:
+        canvas.yview_scroll(1, "units")
+        
+canvas.bind_all("<MouseWheel>", _on_mousewheel)   # windows ou macOS
+canvas.bind_all("<Button-4>", _on_linux_scroll)   # Linux scroll up
+canvas.bind_all("<Button-5>", _on_linux_scroll)   # Linux scroll down
 
 # Exécution
 window.mainloop()
